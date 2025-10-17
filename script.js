@@ -16,4 +16,14 @@ if (age <13) {
 for (let i = 0; i <=10; i ++) {
     console.log ("7*" +i +"=" +(i*7) )
 }
+const saluer = (prénom) => {
+    return ("Bonjour, "+ prénom+" Comment vas tu !") 
+}
+console.log(saluer("robin"))
 
+const nombre = [3, 4, 51, 6, 23, 9]
+for (let i = 1; i < tableau.length; i++) {
+    if (tableau[0] < max) {
+    return max = tableau[i];
+    }
+}
